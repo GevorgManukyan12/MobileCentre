@@ -13,5 +13,6 @@ test('has title', async ({ page }) => {
   await productPage.verifyPrice('58,900դր.');
   await productPage.verifyProductLinkVisible('31009');
   await productPage.verifyProductLinkVisible('31010');
+  await productPage.verifyPrice('58,900դր.');
 });
 
